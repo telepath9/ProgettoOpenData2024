@@ -1,0 +1,415 @@
+@prefix : <http://www.semanticweb.org/davide_montalbano/ontologies/popsalute2/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/davide_montalbano/ontologies/popsalute2/> .
+
+<http://www.popsalute.it/ontology> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.popsalute.it/ontology/IsIn
+<http://www.popsalute.it/ontology/IsIn> rdf:type owl:ObjectProperty ;
+                                        rdfs:domain <http://www.popsalute.it/ontology/Struttura> ;
+                                        rdfs:range <http://www.popsalute.it/ontology/Comune> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.popsalute.it/ontology/haAmbulanzeConMedico
+<http://www.popsalute.it/ontology/haAmbulanzeConMedico> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain <http://www.popsalute.it/ontology/StrutturaDiRicovero> ;
+                                                        rdfs:range xsd:unsignedInt .
+
+
+###  http://www.popsalute.it/ontology/haAmbulanzeEmergenzaNeonato
+<http://www.popsalute.it/ontology/haAmbulanzeEmergenzaNeonato> rdf:type owl:DatatypeProperty ;
+                                                               rdfs:subPropertyOf owl:topDataProperty ;
+                                                               rdfs:domain <http://www.popsalute.it/ontology/StrutturaDiRicovero> ;
+                                                               rdfs:range xsd:unsignedInt .
+
+
+###  http://www.popsalute.it/ontology/haAmbulanzePediatriche
+<http://www.popsalute.it/ontology/haAmbulanzePediatriche> rdf:type owl:DatatypeProperty ;
+                                                          rdfs:subPropertyOf owl:topDataProperty ;
+                                                          rdfs:domain <http://www.popsalute.it/ontology/StrutturaDiRicovero> ;
+                                                          rdfs:range xsd:unsignedInt .
+
+
+###  http://www.popsalute.it/ontology/haAmbulanzeTipoA
+<http://www.popsalute.it/ontology/haAmbulanzeTipoA> rdf:type owl:DatatypeProperty ;
+                                                    rdfs:subPropertyOf owl:topDataProperty ;
+                                                    rdfs:domain <http://www.popsalute.it/ontology/StrutturaDiRicovero> ;
+                                                    rdfs:range xsd:unsignedInt .
+
+
+###  http://www.popsalute.it/ontology/haAmbulanzeTipoB
+<http://www.popsalute.it/ontology/haAmbulanzeTipoB> rdf:type owl:DatatypeProperty ;
+                                                    rdfs:domain <http://www.popsalute.it/ontology/StrutturaDiRicovero> ;
+                                                    rdfs:range xsd:unsignedInt .
+
+
+###  http://www.popsalute.it/ontology/haAnnoApertura
+<http://www.popsalute.it/ontology/haAnnoApertura> rdf:type owl:DatatypeProperty ;
+                                                  rdfs:subPropertyOf owl:topDataProperty ;
+                                                  rdfs:domain <http://www.popsalute.it/ontology/Struttura> ;
+                                                  rdfs:range xsd:dateTime .
+
+
+###  http://www.popsalute.it/ontology/haAnnoCensimento
+<http://www.popsalute.it/ontology/haAnnoCensimento> rdf:type owl:DatatypeProperty ;
+                                                    rdfs:subPropertyOf owl:topDataProperty ;
+                                                    rdfs:range xsd:dateTime .
+
+
+###  http://www.popsalute.it/ontology/haAnnoChiusura
+<http://www.popsalute.it/ontology/haAnnoChiusura> rdf:type owl:DatatypeProperty ;
+                                                  rdfs:subPropertyOf owl:topDataProperty ;
+                                                  rdfs:domain <http://www.popsalute.it/ontology/Struttura> ;
+                                                  rdfs:range xsd:dateTime .
+
+
+###  http://www.popsalute.it/ontology/haApparecchiature
+<http://www.popsalute.it/ontology/haApparecchiature> rdf:type owl:DatatypeProperty ;
+                                                     rdfs:subPropertyOf owl:topDataProperty ;
+                                                     rdfs:domain <http://www.popsalute.it/ontology/StrutturaSanitaria> ;
+                                                     rdfs:range xsd:string .
+
+
+###  http://www.popsalute.it/ontology/haCamereIperbariche
+<http://www.popsalute.it/ontology/haCamereIperbariche> rdf:type owl:DatatypeProperty ;
+                                                       rdfs:subPropertyOf owl:topDataProperty ;
+                                                       rdfs:domain <http://www.popsalute.it/ontology/StrutturaDiRicovero> ;
+                                                       rdfs:range xsd:unsignedInt .
+
+
+###  http://www.popsalute.it/ontology/haCap
+<http://www.popsalute.it/ontology/haCap> rdf:type owl:DatatypeProperty ;
+                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                         rdfs:domain <http://www.popsalute.it/ontology/Comune> ,
+                                                     <http://www.popsalute.it/ontology/Struttura> ;
+                                         rdfs:range xsd:unsignedInt .
+
+
+###  http://www.popsalute.it/ontology/haCentroTrasfusionale
+<http://www.popsalute.it/ontology/haCentroTrasfusionale> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://www.popsalute.it/ontology/StrutturaDiRicovero> ;
+                                                         rdfs:range xsd:string .
+
+
+###  http://www.popsalute.it/ontology/haCodiceAzienda
+<http://www.popsalute.it/ontology/haCodiceAzienda> rdf:type owl:DatatypeProperty ;
+                                                   rdfs:subPropertyOf owl:topDataProperty ;
+                                                   rdfs:domain <http://www.popsalute.it/ontology/Struttura> ;
+                                                   rdfs:range xsd:unsignedInt .
+
+
+###  http://www.popsalute.it/ontology/haCodiceIstat
+<http://www.popsalute.it/ontology/haCodiceIstat> rdf:type owl:DatatypeProperty ;
+                                                 rdfs:subPropertyOf owl:topDataProperty ;
+                                                 rdfs:domain <http://www.popsalute.it/ontology/Comune> ,
+                                                             <http://www.popsalute.it/ontology/Regione> ,
+                                                             <http://www.popsalute.it/ontology/Struttura> ;
+                                                 rdfs:range xsd:string .
+
+
+###  http://www.popsalute.it/ontology/haCodiceRegione
+<http://www.popsalute.it/ontology/haCodiceRegione> rdf:type owl:DatatypeProperty ;
+                                                   rdfs:subPropertyOf owl:topDataProperty ;
+                                                   rdfs:domain <http://www.popsalute.it/ontology/Comune> ,
+                                                               <http://www.popsalute.it/ontology/Regione> ;
+                                                   rdfs:range xsd:unsignedInt .
+
+
+###  http://www.popsalute.it/ontology/haCodiceStruttura
+<http://www.popsalute.it/ontology/haCodiceStruttura> rdf:type owl:DatatypeProperty ;
+                                                     rdfs:subPropertyOf owl:topDataProperty ;
+                                                     rdfs:domain <http://www.popsalute.it/ontology/Struttura> ;
+                                                     rdfs:range xsd:unsignedInt .
+
+
+###  http://www.popsalute.it/ontology/haCodiceStrutturaDiRicovero
+<http://www.popsalute.it/ontology/haCodiceStrutturaDiRicovero> rdf:type owl:DatatypeProperty ;
+                                                               rdfs:subPropertyOf owl:topDataProperty ;
+                                                               rdfs:domain <http://www.popsalute.it/ontology/StrutturaDiRicovero> ,
+                                                                           <http://www.popsalute.it/ontology/StrutturaSanitaria> ;
+                                                               rdfs:range xsd:unsignedInt .
+
+
+###  http://www.popsalute.it/ontology/haCulle
+<http://www.popsalute.it/ontology/haCulle> rdf:type owl:DatatypeProperty ;
+                                           rdfs:subPropertyOf owl:topDataProperty ;
+                                           rdfs:domain <http://www.popsalute.it/ontology/StrutturaDiRicovero> ;
+                                           rdfs:range xsd:unsignedInt .
+
+
+###  http://www.popsalute.it/ontology/haDataAggiornamento
+<http://www.popsalute.it/ontology/haDataAggiornamento> rdf:type owl:DatatypeProperty ;
+                                                       rdfs:subPropertyOf owl:topDataProperty ;
+                                                       rdfs:domain <http://www.popsalute.it/ontology/Struttura> ;
+                                                       rdfs:range xsd:dateTime .
+
+
+###  http://www.popsalute.it/ontology/haDate
+<http://www.popsalute.it/ontology/haDate> rdf:type owl:DatatypeProperty ;
+                                          rdfs:domain <http://www.popsalute.it/ontology/Struttura> .
+
+
+###  http://www.popsalute.it/ontology/haDenominazione
+<http://www.popsalute.it/ontology/haDenominazione> rdf:type owl:DatatypeProperty ;
+                                                   rdfs:subPropertyOf owl:topDataProperty ;
+                                                   rdfs:domain <http://www.popsalute.it/ontology/Comune> ,
+                                                               <http://www.popsalute.it/ontology/Regione> ,
+                                                               <http://www.popsalute.it/ontology/Struttura> ;
+                                                   rdfs:range xsd:string .
+
+
+###  http://www.popsalute.it/ontology/haDescrizioneAssistenza
+<http://www.popsalute.it/ontology/haDescrizioneAssistenza> rdf:type owl:DatatypeProperty ;
+                                                           rdfs:subPropertyOf owl:topDataProperty ;
+                                                           rdfs:domain <http://www.popsalute.it/ontology/StrutturaSanitaria> ;
+                                                           rdfs:range xsd:string .
+
+
+###  http://www.popsalute.it/ontology/haDiagnosticaPerImmagini
+<http://www.popsalute.it/ontology/haDiagnosticaPerImmagini> rdf:type owl:DatatypeProperty ;
+                                                            rdfs:subPropertyOf owl:topDataProperty ;
+                                                            rdfs:domain <http://www.popsalute.it/ontology/StrutturaDiRicovero> ;
+                                                            rdfs:range xsd:string .
+
+
+###  http://www.popsalute.it/ontology/haDipartimentoEmergenza
+<http://www.popsalute.it/ontology/haDipartimentoEmergenza> rdf:type owl:DatatypeProperty ;
+                                                           rdfs:domain <http://www.popsalute.it/ontology/StrutturaDiRicovero> ;
+                                                           rdfs:range xsd:unsignedInt .
+
+
+###  http://www.popsalute.it/ontology/haEmail
+<http://www.popsalute.it/ontology/haEmail> rdf:type owl:DatatypeProperty ;
+                                           rdfs:subPropertyOf owl:topDataProperty ;
+                                           rdfs:domain <http://www.popsalute.it/ontology/Struttura> ;
+                                           rdfs:range xsd:string .
+
+
+###  http://www.popsalute.it/ontology/haIncubatrici
+<http://www.popsalute.it/ontology/haIncubatrici> rdf:type owl:DatatypeProperty ;
+                                                 rdfs:subPropertyOf owl:topDataProperty ;
+                                                 rdfs:domain <http://www.popsalute.it/ontology/StrutturaDiRicovero> ;
+                                                 rdfs:range xsd:unsignedInt .
+
+
+###  http://www.popsalute.it/ontology/haIndirizzo
+<http://www.popsalute.it/ontology/haIndirizzo> rdf:type owl:DatatypeProperty ;
+                                               rdfs:subPropertyOf owl:topDataProperty ;
+                                               rdfs:domain <http://www.popsalute.it/ontology/Struttura> ;
+                                               rdfs:range xsd:string .
+
+
+###  http://www.popsalute.it/ontology/haNumeroFax
+<http://www.popsalute.it/ontology/haNumeroFax> rdf:type owl:DatatypeProperty ;
+                                               rdfs:subPropertyOf owl:topDataProperty ;
+                                               rdfs:domain <http://www.popsalute.it/ontology/Struttura> ;
+                                               rdfs:range xsd:string .
+
+
+###  http://www.popsalute.it/ontology/haOncologiaMedica
+<http://www.popsalute.it/ontology/haOncologiaMedica> rdf:type owl:DatatypeProperty ;
+                                                     rdfs:subPropertyOf owl:topDataProperty ;
+                                                     rdfs:domain <http://www.popsalute.it/ontology/StrutturaDiRicovero> ;
+                                                     rdfs:range xsd:string .
+
+
+###  http://www.popsalute.it/ontology/haPartitaIva
+<http://www.popsalute.it/ontology/haPartitaIva> rdf:type owl:DatatypeProperty ;
+                                                rdfs:subPropertyOf owl:topDataProperty ;
+                                                rdfs:domain <http://www.popsalute.it/ontology/Struttura> ;
+                                                rdfs:range xsd:string .
+
+
+###  http://www.popsalute.it/ontology/haPopolazione
+<http://www.popsalute.it/ontology/haPopolazione> rdf:type owl:DatatypeProperty ;
+                                                 rdfs:domain <http://www.popsalute.it/ontology/Regione> ;
+                                                 rdfs:range xsd:nonNegativeInteger .
+
+
+###  http://www.popsalute.it/ontology/haProntoSoccorso
+<http://www.popsalute.it/ontology/haProntoSoccorso> rdf:type owl:DatatypeProperty ;
+                                                    rdfs:subPropertyOf owl:topDataProperty ;
+                                                    rdfs:domain <http://www.popsalute.it/ontology/StrutturaDiRicovero> ;
+                                                    rdfs:range xsd:string .
+
+
+###  http://www.popsalute.it/ontology/haRadioterapia
+<http://www.popsalute.it/ontology/haRadioterapia> rdf:type owl:DatatypeProperty ;
+                                                  rdfs:subPropertyOf owl:topDataProperty ;
+                                                  rdfs:domain <http://www.popsalute.it/ontology/StrutturaSanitaria> ;
+                                                  rdfs:range xsd:string .
+
+
+###  http://www.popsalute.it/ontology/haRiabilitazione
+<http://www.popsalute.it/ontology/haRiabilitazione> rdf:type owl:DatatypeProperty ;
+                                                    rdfs:subPropertyOf owl:topDataProperty ;
+                                                    rdfs:domain <http://www.popsalute.it/ontology/StrutturaDiRicovero> ;
+                                                    rdfs:range xsd:string .
+
+
+###  http://www.popsalute.it/ontology/haSaleOperatorie
+<http://www.popsalute.it/ontology/haSaleOperatorie> rdf:type owl:DatatypeProperty ;
+                                                    rdfs:subPropertyOf owl:topDataProperty ;
+                                                    rdfs:domain <http://www.popsalute.it/ontology/StrutturaDiRicovero> ;
+                                                    rdfs:range xsd:unsignedInt .
+
+
+###  http://www.popsalute.it/ontology/haServizioDialisi
+<http://www.popsalute.it/ontology/haServizioDialisi> rdf:type owl:DatatypeProperty ;
+                                                     rdfs:subPropertyOf owl:topDataProperty ;
+                                                     rdfs:domain <http://www.popsalute.it/ontology/StrutturaDiRicovero> ;
+                                                     rdfs:range xsd:string .
+
+
+###  http://www.popsalute.it/ontology/haServizioRianimazione
+<http://www.popsalute.it/ontology/haServizioRianimazione> rdf:type owl:DatatypeProperty ;
+                                                          rdfs:subPropertyOf owl:topDataProperty ;
+                                                          rdfs:domain <http://www.popsalute.it/ontology/StrutturaDiRicovero> ;
+                                                          rdfs:range xsd:string .
+
+
+###  http://www.popsalute.it/ontology/haSiglaAutomobilistica
+<http://www.popsalute.it/ontology/haSiglaAutomobilistica> rdf:type owl:DatatypeProperty ;
+                                                          rdfs:subPropertyOf owl:topDataProperty ;
+                                                          rdfs:domain <http://www.popsalute.it/ontology/Comune> ;
+                                                          rdfs:range xsd:string .
+
+
+###  http://www.popsalute.it/ontology/haSitoWeb
+<http://www.popsalute.it/ontology/haSitoWeb> rdf:type owl:DatatypeProperty ;
+                                             rdfs:domain <http://www.popsalute.it/ontology/Struttura> ;
+                                             rdfs:range xsd:string .
+
+
+###  http://www.popsalute.it/ontology/haTelefono
+<http://www.popsalute.it/ontology/haTelefono> rdf:type owl:DatatypeProperty ;
+                                              rdfs:subPropertyOf owl:topDataProperty ;
+                                              rdfs:domain <http://www.popsalute.it/ontology/Struttura> ;
+                                              rdfs:range xsd:string .
+
+
+###  http://www.popsalute.it/ontology/haTerritorio
+<http://www.popsalute.it/ontology/haTerritorio> rdf:type owl:DatatypeProperty ;
+                                                rdfs:subPropertyOf owl:topDataProperty ;
+                                                rdfs:domain <http://www.popsalute.it/ontology/Regione> ;
+                                                rdfs:range xsd:string .
+
+
+###  http://www.popsalute.it/ontology/haTipoAssistenza
+<http://www.popsalute.it/ontology/haTipoAssistenza> rdf:type owl:DatatypeProperty ;
+                                                    rdfs:subPropertyOf owl:topDataProperty ;
+                                                    rdfs:domain <http://www.popsalute.it/ontology/StrutturaSanitaria> ;
+                                                    rdfs:range xsd:string .
+
+
+###  http://www.popsalute.it/ontology/haTipoCasaDiCura
+<http://www.popsalute.it/ontology/haTipoCasaDiCura> rdf:type owl:DatatypeProperty ;
+                                                    rdfs:subPropertyOf owl:topDataProperty ;
+                                                    rdfs:domain <http://www.popsalute.it/ontology/StrutturaDiRicovero> ;
+                                                    rdfs:range xsd:unsignedInt .
+
+
+###  http://www.popsalute.it/ontology/haTipoIrcss
+<http://www.popsalute.it/ontology/haTipoIrcss> rdf:type owl:DatatypeProperty ;
+                                               rdfs:subPropertyOf owl:topDataProperty ;
+                                               rdfs:domain <http://www.popsalute.it/ontology/StrutturaDiRicovero> ;
+                                               rdfs:range xsd:unsignedInt .
+
+
+###  http://www.popsalute.it/ontology/haTipoRapportoSSN
+<http://www.popsalute.it/ontology/haTipoRapportoSSN> rdf:type owl:DatatypeProperty ;
+                                                     rdfs:domain <http://www.popsalute.it/ontology/Struttura> ;
+                                                     rdfs:range xsd:unsignedInt .
+
+
+###  http://www.popsalute.it/ontology/haTipoStruttura
+<http://www.popsalute.it/ontology/haTipoStruttura> rdf:type owl:DatatypeProperty ;
+                                                   rdfs:subPropertyOf owl:topDataProperty ;
+                                                   rdfs:domain <http://www.popsalute.it/ontology/StrutturaSanitaria> ;
+                                                   rdfs:range xsd:string .
+
+
+###  http://www.popsalute.it/ontology/haTipoStrutturaDiRicovero
+<http://www.popsalute.it/ontology/haTipoStrutturaDiRicovero> rdf:type owl:DatatypeProperty ;
+                                                             rdfs:subPropertyOf owl:topDataProperty ;
+                                                             rdfs:domain <http://www.popsalute.it/ontology/StrutturaSanitaria> .
+
+
+###  http://www.popsalute.it/ontology/haUnitaMobiliRianimazione
+<http://www.popsalute.it/ontology/haUnitaMobiliRianimazione> rdf:type owl:DatatypeProperty ;
+                                                             rdfs:subPropertyOf owl:topDataProperty ;
+                                                             rdfs:domain <http://www.popsalute.it/ontology/StrutturaDiRicovero> ;
+                                                             rdfs:range xsd:unsignedInt .
+
+
+###  http://www.popsalute.it/ontology2/haComune
+<http://www.popsalute.it/ontology2/haComune> rdf:type owl:DatatypeProperty ;
+                                             rdfs:domain <http://www.popsalute.it/ontology/Provincia> ;
+                                             rdfs:range xsd:string .
+
+
+###  http://www.popsalute.it/ontology2/haProvincia
+<http://www.popsalute.it/ontology2/haProvincia> rdf:type owl:DatatypeProperty ;
+                                                rdfs:domain <http://www.popsalute.it/ontology/Regione> ;
+                                                rdfs:range xsd:string .
+
+
+###  http://www.popsalute.it/ontology2/haRegione
+<http://www.popsalute.it/ontology2/haRegione> rdf:type owl:DatatypeProperty ;
+                                              rdfs:domain <http://www.popsalute.it/ontology/Comune> ,
+                                                          <http://www.popsalute.it/ontology/Provincia> ,
+                                                          <http://www.popsalute.it/ontology/Struttura> ;
+                                              rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.popsalute.it/ontology#Reparto
+:Reparto rdf:type owl:Class .
+
+
+###  http://www.popsalute.it/ontology/Comune
+<http://www.popsalute.it/ontology/Comune> rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://www.popsalute.it/ontology/Regione> .
+
+
+###  http://www.popsalute.it/ontology/Provincia
+<http://www.popsalute.it/ontology/Provincia> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://www.popsalute.it/ontology/Regione> .
+
+
+###  http://www.popsalute.it/ontology/Regione
+<http://www.popsalute.it/ontology/Regione> rdf:type owl:Class .
+
+
+###  http://www.popsalute.it/ontology/Struttura
+<http://www.popsalute.it/ontology/Struttura> rdf:type owl:Class .
+
+
+###  http://www.popsalute.it/ontology/StrutturaDiRicovero
+<http://www.popsalute.it/ontology/StrutturaDiRicovero> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://www.popsalute.it/ontology/StrutturaSanitaria> .
+
+
+###  http://www.popsalute.it/ontology/StrutturaSanitaria
+<http://www.popsalute.it/ontology/StrutturaSanitaria> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://www.popsalute.it/ontology/Struttura> .
+
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
