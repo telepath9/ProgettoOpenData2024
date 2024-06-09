@@ -1,0 +1,392 @@
+CODICE REGIONE;CODICE COMUNE ISTAT;DENOMINAZIONE COMUNE;REGIONE;PROVINCIA;SIGLA AUTOMOBILISTICA
+190;081001;Alcamo;Sicilia;Trapani;TP
+190;081002;Buseto Palizzolo;Sicilia;Trapani;TP
+190;081003;Calatafimi-Segesta;Sicilia;Trapani;TP
+190;081004;Campobello di Mazara;Sicilia;Trapani;TP
+190;081005;Castellammare del Golfo;Sicilia;Trapani;TP
+190;081006;Castelvetrano;Sicilia;Trapani;TP
+190;081007;Custonaci;Sicilia;Trapani;TP
+190;081008;Erice;Sicilia;Trapani;TP
+190;081009;Favignana;Sicilia;Trapani;TP
+190;081010;Gibellina;Sicilia;Trapani;TP
+190;081011;Marsala;Sicilia;Trapani;TP
+190;081012;Mazara del Vallo;Sicilia;Trapani;TP
+190;081013;Paceco;Sicilia;Trapani;TP
+190;081014;Pantelleria;Sicilia;Trapani;TP
+190;081015;Partanna;Sicilia;Trapani;TP
+190;081016;Poggioreale;Sicilia;Trapani;TP
+190;081017;Salaparuta;Sicilia;Trapani;TP
+190;081018;Salemi;Sicilia;Trapani;TP
+190;081019;Santa Ninfa;Sicilia;Trapani;TP
+190;081020;San Vito Lo Capo;Sicilia;Trapani;TP
+190;081021;Trapani;Sicilia;Trapani;TP
+190;081022;Valderice;Sicilia;Trapani;TP
+190;081023;Vita;Sicilia;Trapani;TP
+190;081024;Petrosino;Sicilia;Trapani;TP
+190;081025;Misiliscemi;Sicilia;Trapani;TP
+190;082001;Alia;Sicilia;Palermo;PA
+190;082002;Alimena;Sicilia;Palermo;PA
+190;082003;Aliminusa;Sicilia;Palermo;PA
+190;082004;Altavilla Milicia;Sicilia;Palermo;PA
+190;082005;Altofonte;Sicilia;Palermo;PA
+190;082006;Bagheria;Sicilia;Palermo;PA
+190;082007;Balestrate;Sicilia;Palermo;PA
+190;082008;Baucina;Sicilia;Palermo;PA
+190;082009;Belmonte Mezzagno;Sicilia;Palermo;PA
+190;082010;Bisacquino;Sicilia;Palermo;PA
+190;082011;Bolognetta;Sicilia;Palermo;PA
+190;082012;Bompietro;Sicilia;Palermo;PA
+190;082013;Borgetto;Sicilia;Palermo;PA
+190;082014;Caccamo;Sicilia;Palermo;PA
+190;082015;Caltavuturo;Sicilia;Palermo;PA
+190;082016;Campofelice di Fitalia;Sicilia;Palermo;PA
+190;082017;Campofelice di Roccella;Sicilia;Palermo;PA
+190;082018;Campofiorito;Sicilia;Palermo;PA
+190;082019;Camporeale;Sicilia;Palermo;PA
+190;082020;Capaci;Sicilia;Palermo;PA
+190;082021;Carini;Sicilia;Palermo;PA
+190;082022;Castelbuono;Sicilia;Palermo;PA
+190;082023;Casteldaccia;Sicilia;Palermo;PA
+190;082024;Castellana Sicula;Sicilia;Palermo;PA
+190;082025;Castronovo di Sicilia;Sicilia;Palermo;PA
+190;082026;Cefalà Diana;Sicilia;Palermo;PA
+190;082027;Cefalù;Sicilia;Palermo;PA
+190;082028;Cerda;Sicilia;Palermo;PA
+190;082029;Chiusa Sclafani;Sicilia;Palermo;PA
+190;082030;Ciminna;Sicilia;Palermo;PA
+190;082031;Cinisi;Sicilia;Palermo;PA
+190;082032;Collesano;Sicilia;Palermo;PA
+190;082033;Contessa Entellina;Sicilia;Palermo;PA
+190;082034;Corleone;Sicilia;Palermo;PA
+190;082035;Ficarazzi;Sicilia;Palermo;PA
+190;082036;Gangi;Sicilia;Palermo;PA
+190;082037;Geraci Siculo;Sicilia;Palermo;PA
+190;082038;Giardinello;Sicilia;Palermo;PA
+190;082039;Giuliana;Sicilia;Palermo;PA
+190;082040;Godrano;Sicilia;Palermo;PA
+190;082041;Gratteri;Sicilia;Palermo;PA
+190;082042;Isnello;Sicilia;Palermo;PA
+190;082043;Isola delle Femmine;Sicilia;Palermo;PA
+190;082044;Lascari;Sicilia;Palermo;PA
+190;082045;Lercara Friddi;Sicilia;Palermo;PA
+190;082046;Marineo;Sicilia;Palermo;PA
+190;082047;Mezzojuso;Sicilia;Palermo;PA
+190;082048;Misilmeri;Sicilia;Palermo;PA
+190;082049;Monreale;Sicilia;Palermo;PA
+190;082050;Montelepre;Sicilia;Palermo;PA
+190;082051;Montemaggiore Belsito;Sicilia;Palermo;PA
+190;082052;Palazzo Adriano;Sicilia;Palermo;PA
+190;082053;Palermo;Sicilia;Palermo;PA
+190;082054;Partinico;Sicilia;Palermo;PA
+190;082055;Petralia Soprana;Sicilia;Palermo;PA
+190;082056;Petralia Sottana;Sicilia;Palermo;PA
+190;082057;Piana degli Albanesi;Sicilia;Palermo;PA
+190;082058;Polizzi Generosa;Sicilia;Palermo;PA
+190;082059;Pollina;Sicilia;Palermo;PA
+190;082060;Prizzi;Sicilia;Palermo;PA
+190;082061;Roccamena;Sicilia;Palermo;PA
+190;082062;Roccapalumba;Sicilia;Palermo;PA
+190;082063;San Cipirello;Sicilia;Palermo;PA
+190;082064;San Giuseppe Jato;Sicilia;Palermo;PA
+190;082065;San Mauro Castelverde;Sicilia;Palermo;PA
+190;082066;Santa Cristina Gela;Sicilia;Palermo;PA
+190;082067;Santa Flavia;Sicilia;Palermo;PA
+190;082068;Sciara;Sicilia;Palermo;PA
+190;082069;Sclafani Bagni;Sicilia;Palermo;PA
+190;082070;Termini Imerese;Sicilia;Palermo;PA
+190;082071;Terrasini;Sicilia;Palermo;PA
+190;082072;Torretta;Sicilia;Palermo;PA
+190;082073;Trabia;Sicilia;Palermo;PA
+190;082074;Trappeto;Sicilia;Palermo;PA
+190;082075;Ustica;Sicilia;Palermo;PA
+190;082076;Valledolmo;Sicilia;Palermo;PA
+190;082077;Ventimiglia di Sicilia;Sicilia;Palermo;PA
+190;082078;Vicari;Sicilia;Palermo;PA
+190;082079;Villabate;Sicilia;Palermo;PA
+190;082080;Villafrati;Sicilia;Palermo;PA
+190;082081;Scillato;Sicilia;Palermo;PA
+190;082082;Blufi;Sicilia;Palermo;PA
+190;083001;Alcara li Fusi;Sicilia;Messina;ME
+190;083002;Alì;Sicilia;Messina;ME
+190;083003;Alì Terme;Sicilia;Messina;ME
+190;083004;Antillo;Sicilia;Messina;ME
+190;083005;Barcellona Pozzo di Gotto;Sicilia;Messina;ME
+190;083006;Basicò;Sicilia;Messina;ME
+190;083007;Brolo;Sicilia;Messina;ME
+190;083008;Capizzi;Sicilia;Messina;ME
+190;083009;Capo d'Orlando;Sicilia;Messina;ME
+190;083010;Capri Leone;Sicilia;Messina;ME
+190;083011;Caronia;Sicilia;Messina;ME
+190;083012;Casalvecchio Siculo;Sicilia;Messina;ME
+190;083013;Castel di Lucio;Sicilia;Messina;ME
+190;083014;Castell'Umberto;Sicilia;Messina;ME
+190;083015;Castelmola;Sicilia;Messina;ME
+190;083016;Castroreale;Sicilia;Messina;ME
+190;083017;Cesarò;Sicilia;Messina;ME
+190;083018;Condrò;Sicilia;Messina;ME
+190;083019;Falcone;Sicilia;Messina;ME
+190;083020;Ficarra;Sicilia;Messina;ME
+190;083021;Fiumedinisi;Sicilia;Messina;ME
+190;083022;Floresta;Sicilia;Messina;ME
+190;083023;Fondachelli-Fantina;Sicilia;Messina;ME
+190;083024;Forza d'Agrò;Sicilia;Messina;ME
+190;083025;Francavilla di Sicilia;Sicilia;Messina;ME
+190;083026;Frazzanò;Sicilia;Messina;ME
+190;083027;Furci Siculo;Sicilia;Messina;ME
+190;083028;Furnari;Sicilia;Messina;ME
+190;083029;Gaggi;Sicilia;Messina;ME
+190;083030;Galati Mamertino;Sicilia;Messina;ME
+190;083031;Gallodoro;Sicilia;Messina;ME
+190;083032;Giardini-Naxos;Sicilia;Messina;ME
+190;083033;Gioiosa Marea;Sicilia;Messina;ME
+190;083034;Graniti;Sicilia;Messina;ME
+190;083035;Gualtieri Sicaminò;Sicilia;Messina;ME
+190;083036;Itala;Sicilia;Messina;ME
+190;083037;Leni;Sicilia;Messina;ME
+190;083038;Letojanni;Sicilia;Messina;ME
+190;083039;Librizzi;Sicilia;Messina;ME
+190;083040;Limina;Sicilia;Messina;ME
+190;083041;Lipari;Sicilia;Messina;ME
+190;083042;Longi;Sicilia;Messina;ME
+190;083043;Malfa;Sicilia;Messina;ME
+190;083044;Malvagna;Sicilia;Messina;ME
+190;083045;Mandanici;Sicilia;Messina;ME
+190;083046;Mazzarrà Sant'Andrea;Sicilia;Messina;ME
+190;083047;Merì;Sicilia;Messina;ME
+190;083048;Messina;Sicilia;Messina;ME
+190;083049;Milazzo;Sicilia;Messina;ME
+190;083050;Militello Rosmarino;Sicilia;Messina;ME
+190;083051;Mirto;Sicilia;Messina;ME
+190;083052;Mistretta;Sicilia;Messina;ME
+190;083053;Moio Alcantara;Sicilia;Messina;ME
+190;083054;Monforte San Giorgio;Sicilia;Messina;ME
+190;083055;Mongiuffi Melia;Sicilia;Messina;ME
+190;083056;Montagnareale;Sicilia;Messina;ME
+190;083057;Montalbano Elicona;Sicilia;Messina;ME
+190;083058;Motta Camastra;Sicilia;Messina;ME
+190;083059;Motta d'Affermo;Sicilia;Messina;ME
+190;083060;Naso;Sicilia;Messina;ME
+190;083061;Nizza di Sicilia;Sicilia;Messina;ME
+190;083062;Novara di Sicilia;Sicilia;Messina;ME
+190;083063;Oliveri;Sicilia;Messina;ME
+190;083064;Pace del Mela;Sicilia;Messina;ME
+190;083065;Pagliara;Sicilia;Messina;ME
+190;083066;Patti;Sicilia;Messina;ME
+190;083067;Pettineo;Sicilia;Messina;ME
+190;083068;Piraino;Sicilia;Messina;ME
+190;083069;Raccuja;Sicilia;Messina;ME
+190;083070;Reitano;Sicilia;Messina;ME
+190;083071;Roccafiorita;Sicilia;Messina;ME
+190;083072;Roccalumera;Sicilia;Messina;ME
+190;083073;Roccavaldina;Sicilia;Messina;ME
+190;083074;Roccella Valdemone;Sicilia;Messina;ME
+190;083075;Rodì Milici;Sicilia;Messina;ME
+190;083076;Rometta;Sicilia;Messina;ME
+190;083077;San Filippo del Mela;Sicilia;Messina;ME
+190;083078;San Fratello;Sicilia;Messina;ME
+190;083079;San Marco d'Alunzio;Sicilia;Messina;ME
+190;083080;San Pier Niceto;Sicilia;Messina;ME
+190;083081;San Piero Patti;Sicilia;Messina;ME
+190;083082;San Salvatore di Fitalia;Sicilia;Messina;ME
+190;083083;Santa Domenica Vittoria;Sicilia;Messina;ME
+190;083084;Sant'Agata di Militello;Sicilia;Messina;ME
+190;083085;Sant'Alessio Siculo;Sicilia;Messina;ME
+190;083086;Santa Lucia del Mela;Sicilia;Messina;ME
+190;083087;Santa Marina Salina;Sicilia;Messina;ME
+190;083088;Sant'Angelo di Brolo;Sicilia;Messina;ME
+190;083089;Santa Teresa di Riva;Sicilia;Messina;ME
+190;083090;San Teodoro;Sicilia;Messina;ME
+190;083091;Santo Stefano di Camastra;Sicilia;Messina;ME
+190;083092;Saponara;Sicilia;Messina;ME
+190;083093;Savoca;Sicilia;Messina;ME
+190;083094;Scaletta Zanclea;Sicilia;Messina;ME
+190;083095;Sinagra;Sicilia;Messina;ME
+190;083096;Spadafora;Sicilia;Messina;ME
+190;083097;Taormina;Sicilia;Messina;ME
+190;083098;Torregrotta;Sicilia;Messina;ME
+190;083099;Tortorici;Sicilia;Messina;ME
+190;083100;Tripi;Sicilia;Messina;ME
+190;083101;Tusa;Sicilia;Messina;ME
+190;083102;Ucria;Sicilia;Messina;ME
+190;083103;Valdina;Sicilia;Messina;ME
+190;083104;Venetico;Sicilia;Messina;ME
+190;083105;Villafranca Tirrena;Sicilia;Messina;ME
+190;083106;Terme Vigliatore;Sicilia;Messina;ME
+190;083107;Acquedolci;Sicilia;Messina;ME
+190;083108;Torrenova;Sicilia;Messina;ME
+190;084001;Agrigento;Sicilia;Agrigento;AG
+190;084002;Alessandria della Rocca;Sicilia;Agrigento;AG
+190;084003;Aragona;Sicilia;Agrigento;AG
+190;084004;Bivona;Sicilia;Agrigento;AG
+190;084005;Burgio;Sicilia;Agrigento;AG
+190;084006;Calamonaci;Sicilia;Agrigento;AG
+190;084007;Caltabellotta;Sicilia;Agrigento;AG
+190;084008;Camastra;Sicilia;Agrigento;AG
+190;084009;Cammarata;Sicilia;Agrigento;AG
+190;084010;Campobello di Licata;Sicilia;Agrigento;AG
+190;084011;Canicattì;Sicilia;Agrigento;AG
+190;084012;Casteltermini;Sicilia;Agrigento;AG
+190;084013;Castrofilippo;Sicilia;Agrigento;AG
+190;084014;Cattolica Eraclea;Sicilia;Agrigento;AG
+190;084015;Cianciana;Sicilia;Agrigento;AG
+190;084016;Comitini;Sicilia;Agrigento;AG
+190;084017;Favara;Sicilia;Agrigento;AG
+190;084018;Grotte;Sicilia;Agrigento;AG
+190;084019;Joppolo Giancaxio;Sicilia;Agrigento;AG
+190;084020;Lampedusa e Linosa;Sicilia;Agrigento;AG
+190;084021;Licata;Sicilia;Agrigento;AG
+190;084022;Lucca Sicula;Sicilia;Agrigento;AG
+190;084023;Menfi;Sicilia;Agrigento;AG
+190;084024;Montallegro;Sicilia;Agrigento;AG
+190;084025;Montevago;Sicilia;Agrigento;AG
+190;084026;Naro;Sicilia;Agrigento;AG
+190;084027;Palma di Montechiaro;Sicilia;Agrigento;AG
+190;084028;Porto Empedocle;Sicilia;Agrigento;AG
+190;084029;Racalmuto;Sicilia;Agrigento;AG
+190;084030;Raffadali;Sicilia;Agrigento;AG
+190;084031;Ravanusa;Sicilia;Agrigento;AG
+190;084032;Realmonte;Sicilia;Agrigento;AG
+190;084033;Ribera;Sicilia;Agrigento;AG
+190;084034;Sambuca di Sicilia;Sicilia;Agrigento;AG
+190;084035;San Biagio Platani;Sicilia;Agrigento;AG
+190;084036;San Giovanni Gemini;Sicilia;Agrigento;AG
+190;084037;Santa Elisabetta;Sicilia;Agrigento;AG
+190;084038;Santa Margherita di Belice;Sicilia;Agrigento;AG
+190;084039;Sant'Angelo Muxaro;Sicilia;Agrigento;AG
+190;084040;Santo Stefano Quisquina;Sicilia;Agrigento;AG
+190;084041;Sciacca;Sicilia;Agrigento;AG
+190;084042;Siculiana;Sicilia;Agrigento;AG
+190;084043;Villafranca Sicula;Sicilia;Agrigento;AG
+190;085001;Acquaviva Platani;Sicilia;Caltanissetta;CL
+190;085002;Bompensiere;Sicilia;Caltanissetta;CL
+190;085003;Butera;Sicilia;Caltanissetta;CL
+190;085004;Caltanissetta;Sicilia;Caltanissetta;CL
+190;085005;Campofranco;Sicilia;Caltanissetta;CL
+190;085006;Delia;Sicilia;Caltanissetta;CL
+190;085007;Gela;Sicilia;Caltanissetta;CL
+190;085008;Marianopoli;Sicilia;Caltanissetta;CL
+190;085009;Mazzarino;Sicilia;Caltanissetta;CL
+190;085010;Milena;Sicilia;Caltanissetta;CL
+190;085011;Montedoro;Sicilia;Caltanissetta;CL
+190;085012;Mussomeli;Sicilia;Caltanissetta;CL
+190;085013;Niscemi;Sicilia;Caltanissetta;CL
+190;085014;Resuttano;Sicilia;Caltanissetta;CL
+190;085015;Riesi;Sicilia;Caltanissetta;CL
+190;085016;San Cataldo;Sicilia;Caltanissetta;CL
+190;085017;Santa Caterina Villarmosa;Sicilia;Caltanissetta;CL
+190;085018;Serradifalco;Sicilia;Caltanissetta;CL
+190;085019;Sommatino;Sicilia;Caltanissetta;CL
+190;085020;Sutera;Sicilia;Caltanissetta;CL
+190;085021;Vallelunga Pratameno;Sicilia;Caltanissetta;CL
+190;085022;Villalba;Sicilia;Caltanissetta;CL
+190;086001;Agira;Sicilia;Enna;EN
+190;086002;Aidone;Sicilia;Enna;EN
+190;086003;Assoro;Sicilia;Enna;EN
+190;086004;Barrafranca;Sicilia;Enna;EN
+190;086005;Calascibetta;Sicilia;Enna;EN
+190;086006;Catenanuova;Sicilia;Enna;EN
+190;086007;Centuripe;Sicilia;Enna;EN
+190;086008;Cerami;Sicilia;Enna;EN
+190;086009;Enna;Sicilia;Enna;EN
+190;086010;Gagliano Castelferrato;Sicilia;Enna;EN
+190;086011;Leonforte;Sicilia;Enna;EN
+190;086012;Nicosia;Sicilia;Enna;EN
+190;086013;Nissoria;Sicilia;Enna;EN
+190;086014;Piazza Armerina;Sicilia;Enna;EN
+190;086015;Pietraperzia;Sicilia;Enna;EN
+190;086016;Regalbuto;Sicilia;Enna;EN
+190;086017;Sperlinga;Sicilia;Enna;EN
+190;086018;Troina;Sicilia;Enna;EN
+190;086019;Valguarnera Caropepe;Sicilia;Enna;EN
+190;086020;Villarosa;Sicilia;Enna;EN
+190;087001;Aci Bonaccorsi;Sicilia;Catania;CT
+190;087002;Aci Castello;Sicilia;Catania;CT
+190;087003;Aci Catena;Sicilia;Catania;CT
+190;087004;Acireale;Sicilia;Catania;CT
+190;087005;Aci Sant'Antonio;Sicilia;Catania;CT
+190;087006;Adrano;Sicilia;Catania;CT
+190;087007;Belpasso;Sicilia;Catania;CT
+190;087008;Biancavilla;Sicilia;Catania;CT
+190;087009;Bronte;Sicilia;Catania;CT
+190;087010;Calatabiano;Sicilia;Catania;CT
+190;087011;Caltagirone;Sicilia;Catania;CT
+190;087012;Camporotondo Etneo;Sicilia;Catania;CT
+190;087013;Castel di Iudica;Sicilia;Catania;CT
+190;087014;Castiglione di Sicilia;Sicilia;Catania;CT
+190;087015;Catania;Sicilia;Catania;CT
+190;087016;Fiumefreddo di Sicilia;Sicilia;Catania;CT
+190;087017;Giarre;Sicilia;Catania;CT
+190;087018;Grammichele;Sicilia;Catania;CT
+190;087019;Gravina di Catania;Sicilia;Catania;CT
+190;087020;Licodia Eubea;Sicilia;Catania;CT
+190;087021;Linguaglossa;Sicilia;Catania;CT
+190;087022;Maletto;Sicilia;Catania;CT
+190;087023;Mascali;Sicilia;Catania;CT
+190;087024;Mascalucia;Sicilia;Catania;CT
+190;087025;Militello in Val di Catania;Sicilia;Catania;CT
+190;087026;Milo;Sicilia;Catania;CT
+190;087027;Mineo;Sicilia;Catania;CT
+190;087028;Mirabella Imbaccari;Sicilia;Catania;CT
+190;087029;Misterbianco;Sicilia;Catania;CT
+190;087030;Motta Sant'Anastasia;Sicilia;Catania;CT
+190;087031;Nicolosi;Sicilia;Catania;CT
+190;087032;Palagonia;Sicilia;Catania;CT
+190;087033;Paternò;Sicilia;Catania;CT
+190;087034;Pedara;Sicilia;Catania;CT
+190;087035;Piedimonte Etneo;Sicilia;Catania;CT
+190;087036;Raddusa;Sicilia;Catania;CT
+190;087037;Ramacca;Sicilia;Catania;CT
+190;087038;Randazzo;Sicilia;Catania;CT
+190;087039;Riposto;Sicilia;Catania;CT
+190;087040;San Cono;Sicilia;Catania;CT
+190;087041;San Giovanni la Punta;Sicilia;Catania;CT
+190;087042;San Gregorio di Catania;Sicilia;Catania;CT
+190;087043;San Michele di Ganzaria;Sicilia;Catania;CT
+190;087044;San Pietro Clarenza;Sicilia;Catania;CT
+190;087045;Sant'Agata li Battiati;Sicilia;Catania;CT
+190;087046;Sant'Alfio;Sicilia;Catania;CT
+190;087047;Santa Maria di Licodia;Sicilia;Catania;CT
+190;087048;Santa Venerina;Sicilia;Catania;CT
+190;087049;Scordia;Sicilia;Catania;CT
+190;087050;Trecastagni;Sicilia;Catania;CT
+190;087051;Tremestieri Etneo;Sicilia;Catania;CT
+190;087052;Valverde;Sicilia;Catania;CT
+190;087053;Viagrande;Sicilia;Catania;CT
+190;087054;Vizzini;Sicilia;Catania;CT
+190;087055;Zafferana Etnea;Sicilia;Catania;CT
+190;087056;Mazzarrone;Sicilia;Catania;CT
+190;087057;Maniace;Sicilia;Catania;CT
+190;087058;Ragalna;Sicilia;Catania;CT
+190;088001;Acate;Sicilia;Ragusa;RG
+190;088002;Chiaramonte Gulfi;Sicilia;Ragusa;RG
+190;088003;Comiso;Sicilia;Ragusa;RG
+190;088004;Giarratana;Sicilia;Ragusa;RG
+190;088005;Ispica;Sicilia;Ragusa;RG
+190;088006;Modica;Sicilia;Ragusa;RG
+190;088007;Monterosso Almo;Sicilia;Ragusa;RG
+190;088008;Pozzallo;Sicilia;Ragusa;RG
+190;088009;Ragusa;Sicilia;Ragusa;RG
+190;088010;Santa Croce Camerina;Sicilia;Ragusa;RG
+190;088011;Scicli;Sicilia;Ragusa;RG
+190;088012;Vittoria;Sicilia;Ragusa;RG
+190;089001;Augusta;Sicilia;Siracusa;SR
+190;089002;Avola;Sicilia;Siracusa;SR
+190;089003;Buccheri;Sicilia;Siracusa;SR
+190;089004;Buscemi;Sicilia;Siracusa;SR
+190;089005;Canicattini Bagni;Sicilia;Siracusa;SR
+190;089006;Carlentini;Sicilia;Siracusa;SR
+190;089007;Cassaro;Sicilia;Siracusa;SR
+190;089008;Ferla;Sicilia;Siracusa;SR
+190;089009;Floridia;Sicilia;Siracusa;SR
+190;089010;Francofonte;Sicilia;Siracusa;SR
+190;089011;Lentini;Sicilia;Siracusa;SR
+190;089012;Melilli;Sicilia;Siracusa;SR
+190;089013;Noto;Sicilia;Siracusa;SR
+190;089014;Pachino;Sicilia;Siracusa;SR
+190;089015;Palazzolo Acreide;Sicilia;Siracusa;SR
+190;089016;Rosolini;Sicilia;Siracusa;SR
+190;089017;Siracusa;Sicilia;Siracusa;SR
+190;089018;Solarino;Sicilia;Siracusa;SR
+190;089019;Sortino;Sicilia;Siracusa;SR
+190;089020;Portopalo di Capo Passero;Sicilia;Siracusa;SR
+190;089021;Priolo Gargallo;Sicilia;Siracusa;SR
